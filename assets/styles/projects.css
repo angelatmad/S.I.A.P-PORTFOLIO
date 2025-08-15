@@ -1,0 +1,110 @@
+.projects-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.projects-title {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fddde6;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.projects-subtitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #fddde6;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.project-image {
+    flex: 1 1 45%;
+    max-width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* MGA TEXT */
+.project-details {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.project-details h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.project-details p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skills-used {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skills-logos img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.project-btn a {
+    background-color: #ffc2d1;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-button {
+    background-color: #fddde6;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #fddde6;
+    color: #ffffff;
+}
+
+

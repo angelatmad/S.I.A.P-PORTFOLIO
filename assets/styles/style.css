@@ -1,0 +1,57 @@
+/*
+-- Responsive Breakpoints
+sm: 640px - mobile phone size
+md: 768px - Tablet size
+lg: 1024px - Laptop standard size
+xl: 1280px -- larger wide desktop size
+*/
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: #ffc2d1;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fddde6;
+    border-radius: 30px;
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* EL's PORTFOLIO NA TEXT */
+.navbar-left h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* ABOUT CONTACT PROJECTS */
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-right ul li a:hover {
+    color: #ff8da1;
+}

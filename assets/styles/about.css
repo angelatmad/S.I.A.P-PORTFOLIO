@@ -1,0 +1,116 @@
+#about {
+    max-width: 1100px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-header-bar {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fddde6;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    background-color: #fddde6;
+}
+
+/* LEFT SIDE SA ABOUT ME or SECTION */
+.about-left {
+    flex: 1 1 35%;
+    text-align: center;
+}
+
+.about-title {
+    background-color: #ffc2d1;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    margin-top: 0px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-description {
+    background-color: #ffc2d1;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: left;
+}
+
+.skills-label {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.skill-logos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.skill-logos img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+/* BUTTON NANIS ABOUT PADONG PROJECT */
+.exploring { 
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+}
+
+.see-projects-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ffc2d1;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.see-projects-btn:hover {
+    background-color: #ffc5d3;
+    color: white;
+}
+
+.about-right {
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
